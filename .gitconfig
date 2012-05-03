@@ -1,0 +1,24 @@
+[gui]
+	recentrepo = C:/Users/Rory/dev/kliyo/src
+	recentrepo = C:/Users/Rory/dev/dailyspin/src
+	recentrepo = C:/Users/Rory/dev/assa/salespoint/CAM
+[core]
+	autocrlf = false
+[user]
+	name = rory woods
+	email = rory.woods@gmail.com
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = c:/Program Files (x86)/KDiff3/kdiff3.exe
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = c:/Program Files (x86)/KDiff3/kdiff3.exe
+	cmd = \"c:/Program Files (x86)/KDiff3/kdiff3.exe\" \"$LOCAL\" \"$REMOTE\"
+[color]
+	ui = auto
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan

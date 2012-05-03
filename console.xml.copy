@@ -30,7 +30,7 @@
 			<selection_color r="255" g="255" b="255"/>
 		</styles>
 		<position x="-1" y="-1" dock="-1" snap="0" z_order="0" save_position="0"/>
-		<transparency type="1" active_alpha="255" inactive_alpha="104" r="0" g="0" b="0"/>
+		<transparency type="0" active_alpha="255" inactive_alpha="255" r="0" g="0" b="0"/>
 	</appearance>
 	<behavior>
 		<copy_paste copy_on_select="0" clear_on_copy="1" no_wrap="1" trim_spaces="1" copy_newline_char="0" sensitive_copy="1"/>
@@ -65,7 +65,7 @@
 		<hotkey ctrl="1" shift="1" alt="0" extended="0" code="9" command="prevtab"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="87" command="closetab"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="82" command="renametab"/>
-		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="67" command="copy"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="copy"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="clear_selection"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="86" command="paste"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="stopscroll"/>
@@ -90,7 +90,7 @@
 		</actions>
 	</mouse>
 	<tabs>
-		<tab title="posh" use_default_icon="1">
+		<tab title="posh" use_default_icon="0">
 			<console shell="powershell" init_dir="C:\Users\Rory" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="0" b="0">
