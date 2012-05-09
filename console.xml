@@ -29,7 +29,7 @@
 		<styles caption="1" resizable="1" taskbar_button="1" border="1" inside_border="2" tray_icon="1">
 			<selection_color r="255" g="255" b="255"/>
 		</styles>
-		<position x="-1" y="-1" dock="-1" snap="0" z_order="0" save_position="0"/>
+		<position x="-1" y="-1" dock="-1" snap="-1" z_order="0" save_position="0"/>
 		<transparency type="1" active_alpha="255" inactive_alpha="104" r="0" g="0" b="0"/>
 	</appearance>
 	<behavior>

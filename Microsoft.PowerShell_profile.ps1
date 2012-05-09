@@ -1,6 +1,9 @@
 ﻿# add to path for ssh-agent
 $env:path += ";C:\Program Files (x86)\Git\bin"
 
+# add path for p4merge
+$env:path += ";C:\Program Files\Perforce"
+
 # psget
 Import-Module PsGet
 

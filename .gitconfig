@@ -8,17 +8,23 @@
 	name = rory woods
 	email = rory.woods@gmail.com
 [merge]
-	tool = kdiff3
+	tool = p4merge
 [mergetool "kdiff3"]
 	path = c:/Program Files (x86)/KDiff3/kdiff3.exe
+[mergetool "p4merge"]
+	cmd = "p4merge.exe $BASE $LOCAL $REMOTE $MERGED"
+	trustExitCode = true
+	keepBackup = false
 [diff]
-	guitool = kdiff3
+	guitool = p4merge
 [difftool "kdiff3"]
 	path = c:/Program Files (x86)/KDiff3/kdiff3.exe
 	cmd = \"c:/Program Files (x86)/KDiff3/kdiff3.exe\" \"$LOCAL\" \"$REMOTE\"
+[difftool "p4merge"]
+	cmd = "p4merge.exe $LOCAL $REMOTE"
 [color]
 	ui = auto
 [color "status"]
-	added = yellow
-	changed = green
+	added = green
+	changed = yellow
 	untracked = cyan
