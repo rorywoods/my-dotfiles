@@ -28,3 +28,9 @@
 	added = green
 	changed = yellow
 	untracked = cyan
+[alias]
+	b = branch -v
+	r = remote -v
+	t = tag -l
+	unstage = reset HEAD
+	uncommit = reset --soft HEAD^
